@@ -5,25 +5,10 @@ import './App.css'
 
 function App(){
            const [chatMessages, setChatMessages] = useState([{
-            message: 'Hello Chatbot',
-            sender: 'user',
-            id:'id1'
-          },{
             message: 'Hello! How can I help you?',
             sender: 'robot',
             id:'id2'
-          },
-        {
-            message:'can you get me today date?',
-            sender:'user',
-            id:'id3'
-        },
-      {
-            message: 'Today is october 3',
-            sender: 'robot',
-            id:'id4'
-
-      }])
+          }])
           //const [chatMessages , setChatMessages] = array;
           //const chatMessages = array[0];
           //const setChatMessages = array[1];
