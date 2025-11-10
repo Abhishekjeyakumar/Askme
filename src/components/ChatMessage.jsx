@@ -1,7 +1,7 @@
 import  RobotProfileImage from '../assets/robot.png';
 import UserProfileimage from '../assets/user.png';
+// import UserProfileimage from '../assets/image.png';
 import './ChatMessage.css'
-import './ChatMessages.css'
 
 export function ChatMessage({message, sender}){
         //Destructuring shortcut
